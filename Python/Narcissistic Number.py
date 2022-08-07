@@ -23,5 +23,4 @@ def NarcissisticNumber (number):
     for i in range(0,len(str(number))):
         result=result + int(aux[i])**len(str(number))
     return(result==number)
-    
-print(NarcissisticNumber(555))
+ 
